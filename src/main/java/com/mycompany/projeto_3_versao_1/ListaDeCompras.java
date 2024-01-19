@@ -49,6 +49,7 @@ public class ListaDeCompras {
             System.out.println("9 - Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
+            
             scanner.nextLine();
             boolean flag = true;
             switch (opcao) {
